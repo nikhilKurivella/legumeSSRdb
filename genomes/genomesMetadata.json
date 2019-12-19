@@ -1,0 +1,87 @@
+[
+	{
+		"id": 1,
+		"name": "Glycine max",
+		"description": "Soybean is the predominant oil-seed legume; it produces a high-protein meal and has many industrial uses.",
+		"image":"assets/images/genomes/soybean.jpg",
+		"databaseName": "Gmax",
+		"blastDBPath":"genomes/blasts/C.sinensis_v2.0_HZAU/C.sinensis_v2.0_HZAU_csi.chromosome.fa",
+		"type":"Chromosome",
+		"ids":"genomes/ids/C.sinensis_v2.0_HZAU_csi.ids",
+		"genus":"Glycine",
+		"species":"max",
+		"common_name":"soybean",
+		"abbreviation":"glyma"
+
+	},
+	{
+		"id": 2,
+		"name": "<i>Cicer arietinum </i>",
+		"description": "The chickpea or chick pea is an annual legume of the family Fabaceae, subfamily Faboideae.",
+		"image":"assets/images/genomes/chickpeas.jpg",
+		"databaseName": "Cart",
+		"blastDBPath":"genomes/blasts/Cclementina_182_v1/Cclementina_182_v1.fa",
+		"type":"Chromosome",
+		"ids":"genomes/ids/Cclementina_182_v1.ids",
+		"genus":"Carietinum",
+		"species":"arietinum_CDCFrontier",
+		"common_name":"chickpea",
+		"abbreviation":"cicar.CDCFrontier"
+	},
+	{
+		"id": 3,
+		"name": "<i>Medicago truncatula</i>",
+		"description": "Medicago truncatula, a close relative of alfalfa (M. sativa), is widely used as a model in legume biology. It is physically small in stature, with a small genome, and has a short generation-to-generation time.",
+		"image":"assets/images/genomes/mungbeans.jpg",
+		"databaseName": "Mtrn",
+		"blastDBPath":"genomes/blasts/A.buxifolia_v1_HKC/A.buxifolia_v1_HKC.scaffold.fa",
+		"type":"Chromosome",
+		"ids":"genomes/ids/A.buxifolia_v1_hkc.ids",
+		"genus":"Medicago",
+		"species":"truncatula",
+		"common_name":"barrel medic",
+		"abbreviation":"medtr"
+	},
+	{
+		"id": 4,
+		"name": "<i>Trifolium pratense</i>",
+		"description": "Red clover (Trifolium pratense) is a perennial legume species native to Northwest Africa, Europe and Western Asia. Today, red clover is found in many regions around the world including the Americas and Australia. Unlike other legume species, red clover is an outcrossing species due to a strong gametophytic incompatibility system. Red clover is a widely grown fodder legume crop and is valued for its role in increasing soil fertility by nitrogen fixation.",
+		"image":"assets/images/genomes/peanut.jpg",
+		"databaseName": "Tprt",
+		"blastDBPath":"genomes/blasts/C.maxima_v1_HWB.chromosome/C.maxima_v1_HWB.chromosome.fa",
+		"type":"Chromosome",
+		"ids":"genomes/ids/C.maxima_v1_HWB.chromosome.ids",
+		"genus":"Trifolium",
+		"species":"pratense",
+		"common_name":"Red clover",
+		"abbreviation":"tripr"
+	},
+	{
+		"id": 5,
+		"name": "<i>Phaseolus vulgaris</i>",
+		"description": "Peanut, Arachis hypogaea, was domesticated at the foot of the South American Andes within modern-day Argentina, Bolivia, or Paraguay. Cultivated peanuts are allotetraploids, with sub-genomes probably contributed by the hybridization of the diploid species Arachis duranensis and Arachis ipaensis.",
+		"image":"assets/images/genomes/blackbean.jpg",
+		"databaseName": "Pvul",
+		"blastDBPath":"genomes/blasts/C.medica_v1_XZ/C.medica_v1_XZ.scaffold.fa",
+		"type":"Chromosome",
+		"ids":"genomes/ids/C.medica_v1_xz.ids",
+		"genus":"Phaseolus",
+		"species":"vulgaris",
+		"common_name":"common bean",
+		"abbreviation":"phavu"
+	},
+	{
+		"id": 6,
+		"name": "<i>Vigna unguiculata</i>",
+		"description": "A clementine (Citrus × clementina) or easy peeler (British English) is a tangor, a hybrid between a willowleaf mandarin orange (C. × deliciosa) and a sweet orange (C. × sinensis), so named in 1902. The exterior is a deep orange colour with a smooth, glossy appearance. Clementines can be separated into 7 to 14 segments. Similar to tangerines, they tend to be easy to peel. They are typically juicy and sweet, with less acid than oranges.[4] Their oils, like other citrus fruits, contain mostly limonene as well as myrcene, linalool, α-pinene and many complex aromatics.",
+		"image":"assets/images/genomes/alfaalfa.jpg",
+		"databaseName": "Vung",
+		"blastDBPath":"genomes/blasts/C.sinensis_154_v1/Csinensis_154_v1.fa",
+		"type":"Chromosome",
+		"ids":"genomes/ids/C.sinensis_154_v1.ids",
+		"genus":"Vigna",
+		"species":"unguiculata",
+		"common_name":"cowpea",
+		"abbreviation":"vigun"
+	}
+]

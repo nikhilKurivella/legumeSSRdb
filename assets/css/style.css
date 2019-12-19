@@ -1,0 +1,104 @@
+html, body {
+    
+	min-height: 100%;
+}
+
+footer {
+	position: relative;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.pad-top {
+	padding-top: 25px;
+}
+
+.pad-top-params {
+	padding-top: 17px;
+}
+
+.pad-top-dataset {
+    padding-top: 15px;
+}
+
+.pad-top-epcr {
+    padding-top: 10px;
+}
+
+.pad-top-contact {
+    padding-top: 15px;
+}
+
+.epcr-scroll {
+    max-height: 500px;
+    overflow-y: scroll; 
+}
+
+.genome-ids-scroll {
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.modal-vertical-center {
+    transform: translate(0, -50%);
+    top: 30%;
+    margin: 0 auto;
+}
+
+.wrap-text {
+  overflow-wrap: break-word;
+}
+
+.popover{
+    max-width: 500px !important; /* Max Width of the popover (depending on the container!) */
+}
+
+.checkbox-menu li label {
+    display: block;
+    padding: 3px 10px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    margin:0;
+    transition: background-color .4s ease;
+}
+.checkbox-menu li input {
+    margin: 0px 5px;
+    top: 2px;
+    position: relative;
+}
+
+.checkbox-menu li.active label {
+    background-color: #addfff;
+    font-weight:bold;
+}
+
+.checkbox-menu li label:hover,
+.checkbox-menu li label:focus {
+    background-color: #f5f5f5;
+}
+
+.checkbox-menu li.active label:hover,
+.checkbox-menu li.active label:focus {
+    background-color: #1f96e0;
+}

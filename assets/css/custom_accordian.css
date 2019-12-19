@@ -1,0 +1,111 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*body {
+  width: 600px;
+  margin: 20px auto;
+}
+
+h1 {
+  color: #ed1c2e;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 20px 5px;
+  display: block;
+}*/
+
+.accordion {
+  width: 100%;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+.accordion .item {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 3px;
+  border: 1px solid #dddddd;
+}
+.accordion .item:hover label.menulabel {
+  color: #ed1c2e;
+}
+.accordion .item label.menulabel {
+  width: 100%;
+  background-color: #fff;
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #dddddd;
+  cursor: s-resize;
+  position: relative;
+  padding: 20px 20px;
+  overflow: hidden;
+}
+.accordion .item label.menulabel:after {
+  display: none;
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 21px;
+  margin-top: -11px;
+  font-size: 20px;
+  color: #ed1c2e;
+  transition: transform 200ms ease-out;
+  -webkit-transition: transform 200ms ease-out;
+  -moz-transition: transform 200ms ease-out;
+}
+.accordion .item input[type="radio"],
+.accordion .item input[type="checkbox"] {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 15px;
+  height: 15px;
+  border: 0px;
+  z-index: 999;
+}
+.accordion .item input[type="radio"][hidden="hidden"],
+.accordion .item input[type="checkbox"][hidden="hidden"] {
+  visiblity: hidden;
+  top: -100%;
+}
+.accordion .item input[type="radio"][hidden="hidden"] + label:after,
+.accordion .item input[type="checkbox"][hidden="hidden"] + label:after {
+  display: block;
+}
+.accordion .item input[type="radio"]:focus,
+.accordion .item input[type="checkbox"]:focus {
+  outline: none;
+}
+.accordion .item input[type="radio"]:checked ~ .acoordion-content,
+.accordion .item input[type="checkbox"]:checked ~ .acoordion-content {
+  padding: 10px 20px;
+  height: auto;
+}
+.accordion .item input[type="radio"]:checked + label.menulabel,
+.accordion .item input[type="checkbox"]:checked + label.menulabel {
+  color: #ed1c2e;
+}
+.accordion .item input[type="radio"]:checked + label.menulabel:after,
+.accordion .item input[type="checkbox"]:checked + label.menulabel:after {
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.accordion .item .acoordion-content {
+  padding: 0px 20px;
+  height: 0px;
+  background-color: #fff;
+  color: #333;
+  overflow: hidden;
+  transition: padding 200ms ease-in-out;
+  -webkit-transition: padding 200ms ease-in-out;
+  -moz-transition: padding 200ms ease-in-out;
+}
